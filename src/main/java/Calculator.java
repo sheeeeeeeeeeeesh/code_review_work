@@ -25,6 +25,8 @@ public class Calculator {
         int b = 4;
 
         return dif(div(times(x, x), times(a, a)), div(times(y,y),times(b,b)));
+    }
+    
     public int solver(int k, int x, int b){
         return add(times(k, x), b);
     }
